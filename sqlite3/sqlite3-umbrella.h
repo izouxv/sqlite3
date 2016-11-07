@@ -1,6 +1,4 @@
-#ifdef __OBJC__
-#import <UIKit/UIKit.h>
-#endif
+@import Foundation;
 
 #import "sqlite3.h"
 #import "sqlite3ext.h"
