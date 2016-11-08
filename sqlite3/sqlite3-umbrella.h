@@ -3,6 +3,6 @@
 #import "sqlite3.h"
 #import "sqlite3ext.h"
 
-FOUNDATION_EXPORT double sqlite3VersionNumber;
-FOUNDATION_EXPORT const unsigned char sqlite3VersionString[];
+ double sqlite3VersionNumber;//FOUNDATION_EXPORT
+ const unsigned char sqlite3VersionString[];//FOUNDATION_EXPORT
 
